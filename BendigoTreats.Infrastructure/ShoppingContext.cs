@@ -15,7 +15,7 @@ namespace BendigoTreats.Infrastructure
 		public DbSet<Order> Orders { get; set; }
 		public DbSet<Product> Products { get; set; }
 
-		public ShoppingContext(DbContextOptions dbContextOptions):base(dbContextOptions)
+		public ShoppingContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
 		{
 
 		}

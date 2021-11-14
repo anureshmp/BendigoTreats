@@ -15,22 +15,22 @@ namespace BendigoTreats.Infrastructure.Repositories
 			this.context = context;
 		}
 
-		public T Add(T entity)
+		public virtual T Add(T entity)
 		{
 			return context.Add(entity).Entity;
 		}
 
-		public IEnumerable<T> All()
+		public virtual IEnumerable<T> All()
 		{
 			return context.Set<T>().ToList();
 		}
 
-		public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
+		public virtual IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
 		{
 			return context.Set<T>().AsQueryable().Where(predicate).ToList();
 		}
 
-		public T Get(Guid id)
+		public virtual T Get(Guid id)
 		{
 			return context.Find<T>(id);
 		}
@@ -40,7 +40,7 @@ namespace BendigoTreats.Infrastructure.Repositories
 			context.SaveChanges();
 		}
 
-		public T Update(T entity)
+		public virtual T Update(T entity)
 		{
 			return context.Update(entity).Entity;
 		}
