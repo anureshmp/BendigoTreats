@@ -2,6 +2,7 @@
 using BendigoTreats.Infrastructure.Repositories;
 using BendigoTreats.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,12 +15,14 @@ namespace BendigoTreats.Web.Controllers
 	{
         private readonly IRepository<Order> orderRepository;
         private readonly IRepository<Product> productRepository;
+        private ILogger<OrderController> logger;
 
         public OrderController(IRepository<Order> orderRepository,
-             IRepository<Product> productRepository)
+             IRepository<Product> productRepository, ILogger<OrderController> logger)
         {
             this.orderRepository = orderRepository;
             this.productRepository = productRepository;
+            this.logger = logger;
         }
 
         public IActionResult Index()
@@ -64,6 +67,7 @@ namespace BendigoTreats.Web.Controllers
             orderRepository.Add(order);
 
             orderRepository.SaveChanges();
+            logger.LogInformation("Order has been created");
 
             return Ok("Order Created");
         }
