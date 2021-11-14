@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Domain", "Ben
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Infrastructure", "BendigoTreats.Infrastructure\BendigoTreats.Infrastructure.csproj", "{5493D480-DEC1-49E4-83EE-4E27D603FBD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Web", "BendigoTreats.Web\BendigoTreats.Web.csproj", "{4A588977-00B4-4166-92FC-0A607D404650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5493D480-DEC1-49E4-83EE-4E27D603FBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5493D480-DEC1-49E4-83EE-4E27D603FBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5493D480-DEC1-49E4-83EE-4E27D603FBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A588977-00B4-4166-92FC-0A607D404650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A588977-00B4-4166-92FC-0A607D404650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A588977-00B4-4166-92FC-0A607D404650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A588977-00B4-4166-92FC-0A607D404650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
