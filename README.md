@@ -13,5 +13,5 @@ Download the project and run it in VS 2019
 
 ## Support
 
-Set the web project as start up, if not set already.
-In case of bootstrap modal box is not shutting on "Close", click elsewhere to close the modal box
+- Set the web project as start up, if not set already.
+- In case of bootstrap modal box is not shutting on "Close", click elsewhere to close the modal box
