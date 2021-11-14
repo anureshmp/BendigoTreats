@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Infrastructur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Web", "BendigoTreats.Web\BendigoTreats.Web.csproj", "{4A588977-00B4-4166-92FC-0A607D404650}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendigoTreats.Tests", "BendigoTreats.Tests\BendigoTreats.Tests.csproj", "{0D407948-AE51-462B-A4D5-8E9A90C7BDC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4A588977-00B4-4166-92FC-0A607D404650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A588977-00B4-4166-92FC-0A607D404650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A588977-00B4-4166-92FC-0A607D404650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D407948-AE51-462B-A4D5-8E9A90C7BDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D407948-AE51-462B-A4D5-8E9A90C7BDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D407948-AE51-462B-A4D5-8E9A90C7BDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D407948-AE51-462B-A4D5-8E9A90C7BDC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
