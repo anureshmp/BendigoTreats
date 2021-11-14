@@ -1,4 +1,4 @@
-# Project Title
+# Bendigo Treats
 Bendigo Treat - A simple webapp for order management at Bendigo Treats
 
 
